@@ -10,7 +10,7 @@ const Contact = () => {
             Nombre
           </label>
           <input
-            className="w-full px-3 py-2 border rounded"
+            className="w-full px-3 py-2 border-2 rounded border-green-300 accent-green-500"
             type="text"
             id="name"
             name="name"
@@ -22,7 +22,7 @@ const Contact = () => {
             Email
           </label>
           <input
-            className="w-full px-3 py-2 border rounded"
+            className="w-full px-3 py-2 border-2 rounded  border-green-300 accent-green-500"
             type="email"
             id="email"
             name="email"
@@ -34,7 +34,7 @@ const Contact = () => {
             Mensaje
           </label>
           <textarea
-            className="w-full px-3 py-2 border rounded"
+            className="w-full px-3 py-2 border-2 rounded border-green-300 accent-green-50"
             id="message"
             name="message"
             required

@@ -21,7 +21,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="bg-gray-100 py-8">
+    <section className="bg-gradient-to-r from-green-400 to-green-200 py-8">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6">
           Lo que dicen nuestros clientes
