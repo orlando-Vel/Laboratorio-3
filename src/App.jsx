@@ -7,6 +7,10 @@ import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import CardCarousel from "./components/CardCarousel";
 import Tours from "./components/Tours";
+import MyCalendar from "./components/MyCalendar";
+import Login from "./components/Login";
+import Register from "./components/Register";
+import ProductList from "./components/ProductList";
 
 function App() {
   return (
@@ -14,13 +18,41 @@ function App() {
       <div>
         <Header />
         <Routes>
+          <Route
+            path="/calendar"
+            element={
+              <>
+                <Tours /> <MyCalendar />
+              </>
+            }
+          />
+
+          <Route
+            path="/login"
+            element={
+              <>
+                <Tours /> <Login />
+              </>
+            }
+          />
+
+          <Route
+            path="/register"
+            element={
+              <>
+                <Register />
+              </>
+            }
+          />
+
           <Route path="/tours" element={<Tours />} />
+
           <Route
             path="/packages"
             element={
               <>
                 <Tours />
-                <CardCarousel />
+                <ProductList />
               </>
             }
           />
